@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zhCN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/details.css">
+</head>
+<body>
+<article>
+    <p id="article_title"></p>
+    <p id="subtitle"><span id="source"></span><span id="time_line"></span></p>
+    <div id="article_main">
+    </div>
+</article>
+
+
+
+<nav id="foot_nav" class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+        <a href="" id="nav_browse" class="nav_tab col-xs-3">
+            <img src="./img/all.png" alt="主页" :class="{foot_actived:nav_browse}">
+        </a>
+        <a href="" id="nav_collection" class="nav_tab col-xs-3">
+            <img src="./img/favorite.png" alt="收藏" :class="{foot_actived:nav_collection}">
+        </a>
+        <a href="" id="nav_search" class="nav_tab col-xs-3">
+            <img src="./img/search.png" alt="搜索" :class="{foot_actived:nav_search}">
+        </a>
+        <a href="" id="nav_personal" class="nav_tab col-xs-3">
+            <img src="./img/personal-center.png" alt="个人中心" :class="{foot_actived:nav_personal}">
+        </a>
+    </div>
+</nav>
+<script src="./js/jquery.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/vue.js"></script>
+<script src="./js/common.js"></script>
+<script src="./js/news_list.js"></script>
+<script src="./js/detail.js"></script>
+</body>
+</html>

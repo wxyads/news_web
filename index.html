@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zhCN">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="apple-mobile-web-app-capable" content="yes" />-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>news</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/news.css">
+</head>
+<body>
+
+<nav id="nav" class="navbar-fixed-top">
+    <div class="container">
+        <a href="" id="hot_point" class="nav_tab col-xs-3" :class="{actived:hot_point}">热点</a>
+        <a href="" id="very_fresh" class="nav_tab col-xs-3" :class="{actived:very_fresh}">最新</a>
+        <a href="" id="review" class="nav_tab col-xs-3" :class="{actived:review}">回顾</a>
+        <a href="" id="interested" class="nav_tab col-xs-3" :class="{actived:interested}">关注</a>
+    </div>
+</nav>
+<div id="articles">
+    <!--<article>-->
+        <!--<hgroup>-->
+            <!--<a href="./sec.html"><h4>AlphaGo战胜李世石后,最让你害怕的是什么?</h4></a>-->
+            <!--<h6>2017.05.30</h6>-->
+        <!--</hgroup>-->
+        <!--<p>One of the primary challenges of designing for mobile devices is that screen real estate is often in limited supply. <br>-->
+            <!--Through the advocacy of Luke W and others, we’ve drawn comfort from the idea that this constraint ends up benefiting<br>-->
+            <!--users and designers alike, from obvious advantages like portability and reach, to influencing our content strategy <br>-->
+            <!--decisions through focus and restraint. But that doesn’t mean we shouldn’t take advantage of every last pixel of that<br>-->
+            <!--screen we can snag!<br></p>-->
+    <!--</article>-->
+    <!--<article style="background-color: #0b1c35">-->
+        <!--<a href=""><h4>AlphaGo战胜李世石后,最让你害怕的是什么?</h4></a>-->
+        <!--<p>One of the primary challenges of designing for mobile devices is that screen real estate is often in limited supply. <br>-->
+            <!--Through the advocacy of Luke W and others, we’ve drawn comfort from the idea that this constraint ends up benefiting<br>-->
+            <!--users and designers alike, from obvious advantages like portability and reach, to influencing our content strategy <br>-->
+            <!--decisions through focus and restraint. But that doesn’t mean we shouldn’t take advantage of every last pixel of that<br>-->
+            <!--screen we can snag!<br></p>-->
+    <!--</article>-->
+    <!--<article style="background-color: #00b33b">-->
+        <!--<a href=""><h4>AlphaGo战胜李世石后,最让你害怕的是什么?</h4></a>-->
+        <!--<img src="./photo/MilH-fyfquxv3824302.jpg" alt="">-->
+        <!--<p>One of the primary challenges of designing for mobile devices is that screen real estate is often in limited supply. <br>-->
+            <!--Through the advocacy of Luke W and others, we’ve drawn comfort from the idea that this constraint ends up benefiting<br>-->
+            <!--users and designers alike, from obvious advantages like portability and reach, to influencing our content strategy <br>-->
+            <!--decisions through focus and restraint. But that doesn’t mean we shouldn’t take advantage of every last pixel of that<br>-->
+            <!--screen we can snag!<br></p>-->
+    <!--</article>-->
+    <!--<article style="background-color: #E9DC51">-->
+        <!--<a href=""><h4>AlphaGo战胜李世石后,最让你害怕的是什么?</h4></a>-->
+        <!--<p>One of the primary challenges of designing for mobile devices is that screen real estate is often in limited supply. <br>-->
+            <!--Through the advocacy of Luke W and others, we’ve drawn comfort from the idea that this constraint ends up benefiting<br>-->
+            <!--users and designers alike, from obvious advantages like portability and reach, to influencing our content strategy <br>-->
+            <!--decisions through focus and restraint. But that doesn’t mean we shouldn’t take advantage of every last pixel of that<br>-->
+            <!--screen we can snag!<br></p>-->
+    <!--</article>-->
+    <!--<article>-->
+        <!--<a href=""><h4>AlphaGo战胜李世石后,最让你害怕的是什么?</h4></a>-->
+    <!--</article>-->
+    <!--<article style="background-color: #0b1c35">-->
+        <!--<a href=""><h4>AlphaGo战胜李世石后,最让你害怕的是什么?</h4></a>-->
+    <!--</article>-->
+    <!--<article style="background-color: #00b33b">-->
+        <!--<a href=""><h4>AlphaGo战胜李世石后,最让你害怕的是什么?</h4></a>-->
+    <!--</article>-->
+    <!--<article style="background-color: #E9DC51">-->
+        <!--<a href=""><h4>AlphaGo战胜李世石后,最让你害怕的是什么?</h4></a>-->
+    <!--</article>-->
+</div>
+
+
+
+<nav id="foot_nav" class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+        <a href="" id="nav_browse" class="nav_tab col-xs-3">
+            <img src="./img/all.png" alt="主页" :class="{foot_actived:nav_browse}">
+        </a>
+        <a href="" id="nav_collection" class="nav_tab col-xs-3">
+            <img src="./img/favorite.png" alt="收藏" :class="{foot_actived:nav_collection}">
+        </a>
+        <a href="" id="nav_search" class="nav_tab col-xs-3">
+            <img src="./img/search.png" alt="搜索" :class="{foot_actived:nav_search}">
+        </a>
+        <a href="" id="nav_personal" class="nav_tab col-xs-3">
+            <img src="./img/personal-center.png" alt="个人中心" :class="{foot_actived:nav_personal}">
+        </a>
+    </div>
+</nav>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/vue.js"></script>
+<script src="./js/common.js"></script>
+<script src="./js/news_list.js"></script>
+<script src="./js/news.js"></script>
+<script>
+
+    /*! Normalized address bar hiding for iOS & Android (c) @scottjehl MIT License */
+//    (function( win ){
+//        var doc = win.document;
+//
+//        // If there's a hash, or addEventListener is undefined, stop here
+//        if(!win.navigator.standalone && !location.hash && win.addEventListener ){
+//
+//            //scroll to 1
+//            win.scrollTo( 0, 1 );
+//            var scrollTop = 1,
+//                    getScrollTop = function(){
+//                        return win.pageYOffset || doc.compatMode === "CSS1Compat" && doc.documentElement.scrollTop || doc.body.scrollTop || 0;
+//                    },
+//
+//            //reset to 0 on bodyready, if needed
+//                    bodycheck = setInterval(function(){
+//                        if( doc.body ){
+//                            clearInterval( bodycheck );
+//                            scrollTop = getScrollTop();
+//                            win.scrollTo( 0, scrollTop === 1 ? 0 : 1 );
+//                        }
+//                    }, 15 );
+//
+//            win.addEventListener( "load", function(){
+//                setTimeout(function(){
+//                    //at load, if user hasn't scrolled more than 20 or so...
+//                    if( getScrollTop() < 20 ){
+//                        //reset to hide addr bar at onload
+//                        win.scrollTo( 0, scrollTop === 1 ? 0 : 1 );
+//                    }
+//                }, 0);
+//            }, false );
+//        }
+//    })( this );
+//    $(function() { setTimeout(hideURLbar, 0); }, false);
+//    function hideURLbar(){
+//        window.scrollTo(0,1);
+//    }
+//    $('body').css("height",window.innerHeight+100);
+//    window.scrollTo(0, 1);
+//    $("body").css("height",window.innerHeight);
+//    alert(document.documentElement.clientHeight);
+//    alert(window.innerHeight);
+</script>
+</body>
+</html>
+<!--
+有个年轻女同事，下班后经常微我，但每次都撤回消息，问她啥事？她也不吭声。<br>
+昨晚八点她又发来一个“hi”。对于女孩子的心思，俺是懂的，果断出击:现在就我俩，把心里的话说出来吧。<br>
+一阵沉寂过后，她说:你头像和楼下卖酸辣粉的大叔一样，我老是搞错。<br>
+有个年轻女同事，下班后经常微我，但每次都撤回消息，问她啥事？她也不吭声。<br>
+昨晚八点她又发来一个“hi”。对于女孩子的心思，俺是懂的，果断出击:现在就我俩，把心里的话说出来吧。<br>
+一阵沉寂过后，她说:你头像和楼下卖酸辣粉的大叔一样，我老是搞错。<br>有个年轻女同事，下班后经常微我，但每次都撤回消息，问她啥事？她也不吭声。<br>
+昨晚八点她又发来一个“hi”。对于女孩子的心思，俺是懂的，果断出击:现在就我俩，把心里的话说出来吧。<br>
+一阵沉寂过后，她说:你头像和楼下卖酸辣粉的大叔一样，我老是搞错。<br>有个年轻女同事，下班后经常微我，但每次都撤回消息，问她啥事？她也不吭声。<br>
+昨晚八点她又发来一个“hi”。对于女孩子的心思，俺是懂的，果断出击:现在就我俩，把心里的话说出来吧。<br>
+一阵沉寂过后，她说:你头像和楼下卖酸辣粉的大叔一样，我老是搞错。<br>有个年轻女同事，下班后经常微我，但每次都撤回消息，问她啥事？她也不吭声。<br>
+昨晚八点她又发来一个“hi”。对于女孩子的心思，俺是懂的，果断出击:现在就我俩，把心里的话说出来吧。<br>
+一阵沉寂过后，她说:你头像和楼下卖酸辣粉的大叔一样，我老是搞错。<br>有个年轻女同事，下班后经常微我，但每次都撤回消息，问她啥事？她也不吭声。<br>
+昨晚八点她又发来一个“hi”。对于女孩子的心思，俺是懂的，果断出击:现在就我俩，把心里的话说出来吧。<br>
+一阵沉寂过后，她说:你头像和楼下卖酸辣粉的大叔一样，我老是搞错。<br>有个年轻女同事，下班后经常微我，但每次都撤回消息，问她啥事？她也不吭声。<br>
+昨晚八点她又发来一个“hi”。对于女孩子的心思，俺是懂的，果断出击:现在就我俩，把心里的话说出来吧。<br>
+一阵沉寂过后，她说:你头像和楼下卖酸辣粉的大叔一样，我老是搞错。<br>有个年轻女同事，下班后经常微我，但每次都撤回消息，问她啥事？她也不吭声。<br>
+昨晚八点她又发来一个“hi”。对于女孩子的心思，俺是懂的，果断出击:现在就我俩，把心里的话说出来吧。<br>
+一阵沉寂过后，她说:你头像和楼下卖酸辣粉的大叔一样，我老是搞错。<br>有个年轻女同事，下班后经常微我，但每次都撤回消息，问她啥事？她也不吭声。<br>
+昨晚八点她又发来一个“hi”。对于女孩子的心思，俺是懂的，果断出击:现在就我俩，把心里的话说出来吧。<br>
+一阵沉寂过后，她说:你头像和楼下卖酸辣粉的大叔一样，我老是搞错。<br>有个年轻女同事，下班后经常微我，但每次都撤回消息，问她啥事？她也不吭声。<br>
+昨晚八点她又发来一个“hi”。对于女孩子的心思，俺是懂的，果断出击:现在就我俩，把心里的话说出来吧。<br>
+一阵沉寂过后，她说:你头像和楼下卖酸辣粉的大叔一样，我老是搞错。<br>有个年轻女同事，下班后经常微我，但每次都撤回消息，问她啥事？她也不吭声。<br>
+昨晚八点她又发来一个“hi”。对于女孩子的心思，俺是懂的，果断出击:现在就我俩，把心里的话说出来吧。<br>
+一阵沉寂过后，她说:你头像和楼下卖酸辣粉的大叔一样，我老是搞错。<br>有个年轻女同事，下班后经常微我，但每次都撤回消息，问她啥事？她也不吭声。<br>
+昨晚八点她又发来一个“hi”。对于女孩子的心思，俺是懂的，果断出击:现在就我俩，把心里的话说出来吧。<br>
+一阵沉寂过后，她说:你头像和楼下卖酸辣粉的大叔一样，我老是搞错。<br>有个年轻女同事，下班后经常微我，但每次都撤回消息，问她啥事？她也不吭声。<br>
+昨晚八点她又发来一个“hi”。对于女孩子的心思，俺是懂的，果断出击:现在就我俩，把心里的话说出来吧。<br>
+一阵沉寂过后，她说:你头像和楼下卖酸辣粉的大叔一样，我老是搞错。<br>有个年轻女同事，下班后经常微我，但每次都撤回消息，问她啥事？她也不吭声。<br>
+昨晚八点她又发来一个“hi”。对于女孩子的心思，俺是懂的，果断出击:现在就我俩，把心里的话说出来吧。<br>
+一阵沉寂过后，她说:你头像和楼下卖酸辣粉的大叔一样，我老是搞错。<br>有个年轻女同事，下班后经常微我，但每次都撤回消息，问她啥事？她也不吭声。<br>
+昨晚八点她又发来一个“hi”。对于女孩子的心思，俺是懂的，果断出击:现在就我俩，把心里的话说出来吧。<br>
+一阵沉寂过后，她说:你头像和楼下卖酸辣粉的大叔一样，我老是搞错。<br>
+-->
